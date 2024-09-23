@@ -13,7 +13,7 @@ RUN pip3 install -r requirements.txt
 COPY . .
 
 # Grant full permission (read, write, execute) to python3 and main.py
-RUN chmod +x /usr/local/bin/python3 && chmod +x /app/main.py
+RUN chmod +x /usr/local/bin/python3 && chmod +x /tmp/main.py
 
 # Ensure we run as root (the default user) to edit files in system directories like /etc
 USER root

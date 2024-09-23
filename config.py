@@ -62,7 +62,7 @@ USER_REPLY_TEXT = "❌Don't send me messages directly I'm only File Share bot!"
 
 ADMINS.append(OWNER_ID)
 
-LOG_FILE_NAME = "filesharingbot.txt"
+LOG_FILE_NAME = "/tmp/filesharingbot.txt"
 
 logging.basicConfig(
     level=logging.INFO,
